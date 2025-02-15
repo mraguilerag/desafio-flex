@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.contactos{
+    background-color: red;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /*aplicar flex*/
+}
+.principal{
+    background-color: green;
+    flex-grow: 1;
+    /*aplicar flex*/
+}
+.usuario, .boton, .chats{
+    border: 1px solid grey;
+}
+.imagen{
+    border-radius: 100%;
+}
+.boton{
+    text-decoration: none;
+    color: black;
+}
