@@ -16,7 +16,8 @@ body{
 
 }
 .usuario1 {
-    padding-left: 5%;
+    padding-top: 8px;
+    padding-left: 15px;
 }
 .usuario1 p{
     color: #bec1bb;
@@ -52,9 +53,6 @@ body{
     margin-bottom: 15px;
     margin-left: 30px;
 }
-
-.bigchats{
-}
 .chats{
     border: 1px solid #e8ebe4;
     display: flex;
@@ -71,6 +69,7 @@ body{
     padding-right: 45px;
     color: white;
     background-color: #a491d2 ;
+    border: none;
 
 }
 
