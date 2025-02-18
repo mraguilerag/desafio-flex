@@ -6,31 +6,37 @@ body{
     height: 100vh;
 }
 .contactos{
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #e8ebe4;
+    background-color: white;
 }
 .unica{
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+}
+.usuario1 {
+    padding-left: 5%;
+}
+.usuario1 p{
+    color: #bec1bb;
+    margin-top: 0%;
+}
+.usuario1 h3{
+    margin-bottom: 5px;
 }
 .usuario{
-    padding-left: 5%;
+    padding-top: 8px;
+    padding-left: 15px;
 }
 .usuario h3{
     margin-bottom: 5px;
 }
 .usuario p{
-    color: #bec1bb;
     margin-top: 0%;
 }
 .info{
     display: flex;
-    
 }
 .icons{
     display: flex;
@@ -38,34 +44,25 @@ body{
 }
 
 .primera{
-    width: 25%;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
-    border: 2px solid #bec1bb;
+    border: 1.8px solid #bec1bb;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
 }
 .boton{
     display: flex;
     justify-content: center;
 }
+.bigchats{
+}
 .boton, .chats{
-    border: 1.5px solid #e8ebe4;
+    border: 1px solid #e8ebe4;
 }
 .chats{
     display: flex;
-    height: 120px;
 }
-.chat1{
-    width: 25%;
-    border-radius: 100%;
-    margin-left: 20px;
-    padding: 15px;
-}
-.contenedor h3{
-    margin-top: 23%;
-    margin-bottom: 5px;
-    margin-left: 10px;
-}
-.contenedor p{
-    margin-top: 0%;
-    margin-left: 10px;
-}
+
 
